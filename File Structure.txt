@@ -1,0 +1,64 @@
+Digital-Saathi/
+│
+├── manage.py
+├── db.sqlite3
+├── requirements.txt
+│
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── contact/
+│   ├── migrations/
+│   │   ├── __init__.py
+│   │   └── 0001_initial.py
+│   │
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── blogs/
+│   ├── migrations/
+│   │   └── __init__.py
+│   │
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+│
+├── templates/
+│   ├── index.html
+│   ├── about.html
+│   ├── services.html
+│   ├── projects.html
+│   ├── careers.html
+│   ├── blogs.html
+│   └── contact.html
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── script.js
+│   │
+│   └── assets/
+│       ├── logo.png
+│       ├── team/
+│       ├── projects/
+│       ├── blog/
+│       └── images/
+│
+├── media/
+│   └── blog/
+│
+└── venv/
