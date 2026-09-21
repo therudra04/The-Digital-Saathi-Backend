@@ -4,7 +4,7 @@ from .serializers import BlogSerializer
 
 
 class BlogListAPIView(generics.ListAPIView):
-    queryset = Blog.objects.filter(is_published=True).order_by("-published_at")
+    queryset = Blog.objects.filter(is_published=True).order_by("-created_at")
     serializer_class = BlogSerializer
 
 
